@@ -1,0 +1,24 @@
+x=int(input("Enter your 1st number:"))
+y=int(input("Enter your 2nd number:"))
+
+print("Answer of addition=",x+y)
+print("Answer of multiplication=",x*y)
+
+if x>y:
+print("Answer of subtraction=",x-y)
+print("Answer of floor division=",x//y)
+print("Answer of modulus=",x%y)
+
+elif y>x:
+print("Answer of subtraction=",y-x)
+print("Answer of floor division=",y//x)
+print("Answer of modulus=",y%x)
+
+all_x=id(x)
+all_y=id(y)
+print("Allocation of 1st number:",all_x)
+print("Allocation of 2st number:",all_y)
+hex_x=hex(x)
+hex_y=hex(y)
+print("Hexadecimal value of 1st number:",hex_x)
+print("Hexadecimal value of 2nd number:",hex_y)
